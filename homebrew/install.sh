@@ -8,7 +8,7 @@ thunder virtualbox welly firefox simple-comic \
 jd-gui spotify
 
 #need java
-brew install ant tomcat tomcat-native jetty maveca
+brew install ant tomcat tomcat-native jetty maveca homebrew/versions/tomcat7
 
 
 ## no cask application
