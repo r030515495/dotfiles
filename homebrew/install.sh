@@ -14,5 +14,20 @@ brew install ant tomcat tomcat-native jetty maveca homebrew/versions/tomcat7
 
 
 ## no cask application
-# sublime text3
 
+
+# iFunBox.app/
+# Sublime Text.app/
+# MacMoney.app/
+# iStat Menus.app/
+# Alfred 2.app/
+# MEGAsync.app/
+# Haozhaopian.app/
+# VirtualBox.app/
+# LINE.app/
+# Evernote.app/
+# Magican.app/
+# Xcode.app/
+# Pocket.app/
+# Moom.app/
+# Dash.app/
