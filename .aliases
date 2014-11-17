@@ -1,0 +1,61 @@
+# Easier navigation: .., ..., ...., ....., ~ and -
+alias ..="cd .. && echo `pwd`"
+alias ...="cd ../.. && echo `pwd`"
+alias ....="cd ../../.. && echo `pwd`"
+alias .....="cd ../../../.. && echo `pwd`"
+alias ~="cd ~" # `cd` is probably faster to type though
+alias -- -="cd - && echo `pwd`"
+
+#ls
+alias ll='ls -aGFltrh'
+alias ls='ls -GFltrh'
+
+
+# Shortcuts
+alias d="cd ~/Dropbox"
+alias dl="cd ~/Downloads && && echo $PWD"
+alias dt="cd ~/Desktop"
+alias g="git"
+alias h="history"
+alias j="jobs"
+
+# subl link
+alias subl='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl -w'
+
+# vagrant Shortcuts
+alias vg='vagrant reload && vagrant ssh'
+
+# brew cask Shortcuts
+alias cask='brew cask'
+
+# edit profile
+alias p='subl ~/.bash_profile || source ~/.bash_profile'
+
+# doc
+alias study='open ~/Documents/Study-Resource/Study\ resources.md'
+alias dotfile='subl ~/Code/dotfiles || sh ~/Code/dotfiles/install.sh'
+
+# Java
+alias java6='export JAVA_HOME=$(/usr/libexec/java_home -v 1.6 );echo $JAVA_HOME'
+alias java7='export JAVA_HOME=$(/usr/libexec/java_home -v 1.7 );echo $JAVA_HOME'
+alias java8='export JAVA_HOME=$(/usr/libexec/java_home -v 1.8 );echo $JAVA_HOME'
+
+# Stopwatch
+alias timer='echo "Timer started. Stop with Ctrl-D." && date && time cat && date'
+
+# Get OS X Software Updates, and update installed Ruby gems, Homebrew, npm, and their installed packages
+alias update='sudo softwareupdate -i -a; brew update; brew upgrade; brew cleanup; npm install npm -g; npm update -g; sudo gem update --system; sudo gem update'
+
+# IP addresses
+alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
+
+# copy now path
+alias pwdc='echo -n $PWD|pbcopy;echo $PWD'
+
+# open in Finder
+alias finder='open -a Finder ./'
+
+# use python server in now finder
+alias pServer='python -m SimpleHTTPServer 8888'
+
+
