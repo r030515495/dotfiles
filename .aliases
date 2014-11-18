@@ -1,3 +1,16 @@
+# OS specific support (must be 'true' or 'false').
+darwin=false;
+linux=false;
+case "`uname`" in
+
+    Darwin*)
+        darwin=true
+        ;;
+
+    Linux)
+        linux=true
+        ;;
+esac
 # Easier navigation: .., ..., ...., ....., ~ and -
 alias ..="cd .. && echo `pwd`"
 alias ...="cd ../.. && echo `pwd`"
@@ -7,8 +20,12 @@ alias ~="cd ~" # `cd` is probably faster to type though
 alias -- -="cd - && echo `pwd`"
 
 #ls
-alias ll='ls -aGFltrh'
 alias ls='ls -GFltrh'
+alias ll='ls -GFltrha'
+if $linux; then
+    alias ls='ls -ltrh --color=auto'
+    alias ll='ls -ltrha --color=auto'
+fi
 
 
 # Shortcuts
