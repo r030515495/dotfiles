@@ -13,7 +13,7 @@ alias ls='ls -GFltrh'
 
 # Shortcuts
 alias d="cd ~/Dropbox"
-alias dl="cd ~/Downloads && && echo $PWD"
+alias dl="cd ~/Downloads && echo $PWD"
 alias dt="cd ~/Desktop"
 alias g="git"
 alias h="history"
