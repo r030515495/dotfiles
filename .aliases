@@ -24,6 +24,7 @@ alias subl='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl -w'
 
 # vagrant Shortcuts
 alias vg='vagrant reload && vagrant ssh'
+alias vs='vagrant ssh'
 
 # brew cask Shortcuts
 alias cask='brew cask'
