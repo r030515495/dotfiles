@@ -5,7 +5,7 @@ export WILDFLY_HOME=/Users/rex/Code/JavaPj/jboss/wildfly-8.0.0.Final/
 
 # source dotfile
 for file in ~/.{aliases,functions,bashrc}; do
-    [ -r "$file" ] && [ -f "$file" ] && source "$file";
+    [ -r "$file" ] && [ -f "$file" ] && source "$file" && echo 'source' $file 'success' || echo 'source' $file 'fail';
 done;
 
 unset file

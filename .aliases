@@ -12,12 +12,12 @@ case "`uname`" in
         ;;
 esac
 # Easier navigation: .., ..., ...., ....., ~ and -
-alias ..="cd .. && echo `pwd`"
-alias ...="cd ../.. && echo `pwd`"
-alias ....="cd ../../.. && echo `pwd`"
-alias .....="cd ../../../.. && echo `pwd`"
+alias ..='cd .. && echo $PWD'
+alias ...='cd ../.. && echo $PWD'
+alias ....='cd ../../.. && echo $PWD'
+alias .....='cd ../../../.. && echo $PWD'
 alias ~="cd ~" # `cd` is probably faster to type though
-alias -- -="cd - && echo `pwd`"
+alias -- -='cd - && echo $PWD'
 
 #ls
 alias ls='ls -GFltrh'
@@ -42,6 +42,7 @@ alias subl='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl -w'
 # vagrant Shortcuts
 alias vg='vagrant reload && vagrant ssh'
 alias vs='vagrant ssh'
+alias vh='vagrant halt'
 
 # brew cask Shortcuts
 alias cask='brew cask'
@@ -76,4 +77,6 @@ alias finder='open -a Finder ./'
 # use python server in now finder
 alias pServer='python -m SimpleHTTPServer 8888'
 
+unset darwin;
+unset linux;
 
