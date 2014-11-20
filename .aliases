@@ -19,9 +19,11 @@ alias .....='cd ../../../.. && echo $PWD'
 alias ~="cd ~" # `cd` is probably faster to type though
 alias -- -='cd - && echo $PWD'
 
-#ls
+#ls Shortcuts
 alias ls='ls -GFltrh'
 alias ll='ls -GFltrha'
+alias ld='ls -a| grep ".*[^.]/$" --color=auto'
+
 if $linux; then
     alias ls='ls -ltrh --color=auto'
     alias ll='ls -ltrha --color=auto'
