@@ -22,7 +22,7 @@ alias -- -='cd - && echo $PWD'
 #ls Shortcuts
 alias ls='ls -GFltrh'
 alias ll='ls -GFltrha'
-alias ld='ls -a| grep ".*[^.]/$" --color=auto'
+alias ld='ls -a| grep "^d.*" --color=auto'
 
 if $linux; then
     alias ls='ls -ltrh --color=auto'
