@@ -31,9 +31,9 @@ fi
 
 
 # Shortcuts
-alias d="cd ~/Dropbox"
-alias dl="cd ~/Downloads && echo $PWD"
-alias dt="cd ~/Desktop"
+alias d='cd ~/Dropbox && echo $PWD'
+alias dl='cd ~/Downloads && echo $PWD'
+alias dt='cd ~/Desktop'
 alias g="git"
 alias h="history"
 alias j="jobs"
