@@ -6,7 +6,6 @@ brew install tree
 brew install coreutils
 brew install nginx
 brew install imagemagick
-
 brew install caskroom/cask/brew-cask
 brew install vagrant
 brew install ffmpeg
@@ -36,6 +35,7 @@ brew cask install thunder
 brew cask install vagrant
 brew cask install virtualbox
 brew cask install welly
+brew cask install gisto
 
 
 #need java
