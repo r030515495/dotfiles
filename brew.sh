@@ -1,3 +1,11 @@
+#!/usr/bin/env bash
+
+if [ ! -z `which brew` ]; then
+    echo "brew is ok do updating....";
+    brew update;
+    exit 0
+fi
+
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 #base
 brew install node
