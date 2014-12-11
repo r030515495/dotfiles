@@ -17,7 +17,7 @@ alias ...='cd ../.. && echo $PWD'
 alias ....='cd ../../.. && echo $PWD'
 alias .....='cd ../../../.. && echo $PWD'
 alias ~="cd ~" # `cd` is probably faster to type though
-alias -- -='cd - && echo $PWD'
+alias -- -='cd -'
 
 #ls Shortcuts
 alias ls='ls -GFltrh'
