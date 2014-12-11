@@ -44,6 +44,7 @@ brew cask install vagrant
 brew cask install virtualbox
 brew cask install welly
 brew cask install gisto
+brew cask install couleurs
 
 
 #need java
