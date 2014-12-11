@@ -54,7 +54,7 @@ alias p='subl ~/.bash_profile || source ~/.bash_profile'
 
 # doc
 alias study='open ~/Documents/Study-Resource/Study\ resources.md'
-alias dotfile='subl ~/Code/dotfiles || sh ~/Code/dotfiles/install.sh'
+alias dotfile='subl ~/git/dotfiles || sh ~/git/dotfiles/install.sh'
 
 # Java
 alias java6='export JAVA_HOME=$(/usr/libexec/java_home -v 1.6 );echo $JAVA_HOME'
