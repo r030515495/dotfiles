@@ -47,7 +47,7 @@ alias vs='vagrant ssh'
 alias vh='vagrant halt'
 
 # brew cask Shortcuts
-alias cask='brew cask'
+alias cask='brew cask --debug'
 
 # edit profile
 alias p='subl ~/.bash_profile || source ~/.bash_profile'
