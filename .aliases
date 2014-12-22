@@ -79,6 +79,9 @@ alias finder='open -a Finder ./'
 # use python server in now finder
 alias pServer='python -m SimpleHTTPServer 8888'
 
+# start a open Office Server
+alias openOffice='/Applications/OpenOffice.app/Contents/MacOS/soffice -headless -accept="socket,host=127.0.0.1,port=8100;urp;" -nofirststartwizard'
+
 unset darwin;
 unset linux;
 
