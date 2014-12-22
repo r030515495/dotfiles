@@ -17,6 +17,7 @@ brew install imagemagick
 brew install caskroom/cask/brew-cask
 brew install vagrant
 brew install ffmpeg
+brew install apktool
 
 #cask
 brew cask install cord
