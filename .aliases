@@ -47,7 +47,7 @@ alias vs='vagrant ssh'
 alias vh='vagrant halt'
 
 # brew cask Shortcuts
-alias cask='brew cask --debug'
+alias cask='brew cask'
 
 # edit profile
 alias p='subl ~/.bash_profile || source ~/.bash_profile'
@@ -87,4 +87,7 @@ alias ql='qlmanage -p'
 
 unset darwin;
 unset linux;
+
+# Start Game
+alias game='sh ~/git/GameShell/CookicRun/gameClick.sh'
 
