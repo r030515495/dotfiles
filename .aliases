@@ -89,5 +89,5 @@ unset darwin;
 unset linux;
 
 # Start Game
-alias game='sh ~/git/GameShell/CookicRun/gameClick.sh'
+alias game='time sh ~/git/GameShell/CookicRun/gameClick.sh'
 
