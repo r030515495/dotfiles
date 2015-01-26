@@ -90,4 +90,5 @@ unset linux;
 
 # Start Game
 alias game='time sh ~/git/GameShell/CookicRun/gameClick.sh'
+alias cgame='cd ~/git/GameShell/CookicRun'
 
