@@ -46,6 +46,8 @@ brew cask install virtualbox
 brew cask install welly
 brew cask install gisto
 brew cask install couleurs
+# DVD to mp4
+brew cask install handbrakecli
 
 
 #need java
@@ -54,6 +56,7 @@ brew install tomcat-native
 brew install jetty
 brew install maven
 brew install homebrew/versions/tomcat7
+brew install gradle
 
 
 ## no cask application
