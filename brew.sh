@@ -18,6 +18,7 @@ brew install caskroom/cask/brew-cask
 brew install vagrant
 brew install ffmpeg
 brew install apktool
+brew install pandoc
 
 #cask
 brew cask install cord
