@@ -3,6 +3,7 @@
 target/
 bin/*
 */.svn/*
+.svn/*
 gen/*
 .metadata/*
 *.class
