@@ -1,4 +1,8 @@
 *~
 .DS_Store
 target/
-
+bin/*
+*/.svn/*
+gen/*
+.metadata/*
+*.class
