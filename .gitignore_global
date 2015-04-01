@@ -7,3 +7,4 @@ bin/*
 gen/*
 .metadata/*
 *.class
+node_modules

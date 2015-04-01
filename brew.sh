@@ -19,6 +19,7 @@ brew install vagrant
 brew install ffmpeg
 brew install apktool
 brew install pandoc
+brew install nvm
 
 #cask
 brew cask install cord
