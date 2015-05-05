@@ -48,6 +48,9 @@ brew cask install virtualbox
 brew cask install welly
 brew cask install gisto
 brew cask install couleurs
+brew cask install qlcolorcode
+brew cask install qlmarkdown
+brew cask install qlstephen
 # DVD to mp4
 brew cask install handbrakecli
 
