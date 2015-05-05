@@ -51,6 +51,7 @@ brew cask install couleurs
 brew cask install qlcolorcode
 brew cask install qlmarkdown
 brew cask install qlstephen
+brew cask install recordit
 # DVD to mp4
 brew cask install handbrakecli
 
