@@ -19,6 +19,8 @@ brew install ffmpeg
 brew install apktool
 brew install pandoc
 brew install nvm
+# 想要 node 和 iojs 並存
+brew install node
 
 #cask
 brew cask install cord

@@ -16,5 +16,3 @@ done;
 unset file
 
 nvm use iojs
-# link iojs to node
-[ -s "/usr/local/bin/node" ] || ln /Users/rex/.nvm/versions/io.js/v2.0.1/bin/iojs  /usr/local/bin/node
