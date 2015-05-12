@@ -1,7 +1,5 @@
 nvm install stable
 nvm install iojs
-npm install -g slush
-npm install -g slush-angular
 npm install -g titler
 npm install -g bower
 npm install -g cordova
