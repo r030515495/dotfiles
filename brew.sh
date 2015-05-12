@@ -8,7 +8,6 @@ fi
 
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 #base
-brew install node
 brew install python
 brew install tree
 brew install coreutils
