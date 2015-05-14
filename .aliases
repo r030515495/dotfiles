@@ -92,3 +92,6 @@ unset linux;
 alias game='time sh ~/git/GameShell/CookicRun/gameClick.sh'
 alias cgame='cd ~/git/GameShell/CookicRun'
 
+alias subledit='open -a "/Applications/TextEdit.app" ~/Library/Application\ Support/Sublime\ Text\ 3/Local/Session.sublime_session'
+
+
