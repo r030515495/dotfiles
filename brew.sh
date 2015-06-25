@@ -18,6 +18,7 @@ brew install vagrant
 brew install ffmpeg
 brew install apktool
 brew install pandoc
+brew install mongodb24
 brew install nvm
 # 想要 node 和 iojs 並存
 brew install node
