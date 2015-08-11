@@ -54,6 +54,7 @@ brew cask install qlcolorcode
 brew cask install qlmarkdown
 brew cask install qlstephen
 brew cask install recordit
+brew cask install robomongo
 # DVD to mp4
 brew cask install handbrakecli
 
