@@ -98,6 +98,6 @@ alias dclean="dcleancontainers && dcleanimages"
 
 alias subledit='open -a "/Applications/TextEdit.app" ~/Library/Application\ Support/Sublime\ Text\ 3/Local/Session.sublime_session'
 
-alias gamongod='mongod  --dbpath=/Users/rex/mongodb_data'
+alias gamongod='mongod  --dbpath=/Users/rex/mongodb_data --auth'
 
 
