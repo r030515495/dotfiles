@@ -24,6 +24,9 @@ alias ls='ls -GFltrh'
 alias ll='ls -GFltrha'
 alias ld='ls -a| grep "^d.*" --color=auto'
 
+# du Shortcuts
+alias du='du -d 1  -h . | sort -rn'
+
 if $linux; then
     alias ls='ls -ltrh --color=auto'
     alias ll='ls -ltrha --color=auto'
@@ -99,5 +102,6 @@ alias dclean="dcleancontainers && dcleanimages"
 alias subledit='open -a "/Applications/TextEdit.app" ~/Library/Application\ Support/Sublime\ Text\ 3/Local/Session.sublime_session'
 
 alias gamongod='mongod  --dbpath=/Users/rex/mongodb_data --auth'
+
 
 
