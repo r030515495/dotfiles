@@ -6,6 +6,8 @@ export ANDROID_HOME="/Users/rex/Tool/sdk/"
 export PYTHONPATH="/usr/local/lib/python2.7/site-packages"
 export MAVEN_OPTS="-Xmx512m"
 export NVM_DIR="/Users/rex/.nvm"
+# export HOMEBREW_CASK_OPTS="--appdir=/Applications"
+
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 
 # source dotfile
