@@ -59,6 +59,7 @@ brew cask install recordit
 brew cask install robomongo
 # DVD to mp4
 brew cask install handbrakecli
+brew cask install giffun
 
 
 #need java
