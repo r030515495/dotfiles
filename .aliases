@@ -103,5 +103,8 @@ alias subledit='open -a "/Applications/TextEdit.app" ~/Library/Application\ Supp
 
 alias gamongod='mongod  --dbpath=/Users/rex/mongodb_data --auth'
 
+alias dsfind='find . -name ".DS_Store"'
+
+alias dsrm='find . -name ".DS_Store"  -exec rm -rf {} \; '
 
 
