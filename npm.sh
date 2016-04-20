@@ -1,5 +1,4 @@
 nvm install stable
-nvm install iojs
 npm install -g titler
 npm install -g bower
 npm install -g cordova

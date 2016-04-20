@@ -23,8 +23,7 @@ brew install nvm
 brew install cloc
 # 繁簡語意轉換
 brew install opencc
-# 想要 node 和 iojs 並存
-brew install node
+
 
 #cask
 brew cask install cord

@@ -92,7 +92,7 @@ unset darwin;
 unset linux;
 
 # Set Docker Env
-$(boot2docker shellinit)
+#$(boot2docker shellinit)
 
 # Docker shortcuts
 alias dcleanimages="docker images --no-trunc | grep '^<none>' | awk '{print $3}' | xargs docker rmi -f"

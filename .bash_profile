@@ -16,5 +16,3 @@ for file in ~/.{aliases,functions,bashrc}; do
 done;
 
 unset file
-
-nvm use iojs
