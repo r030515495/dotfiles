@@ -84,6 +84,7 @@ alias pServer='python -m SimpleHTTPServer 8888'
 
 # start a open Office Server
 alias openOffice='/Applications/OpenOffice.app/Contents/MacOS/soffice -headless -accept="socket,host=127.0.0.1,port=8100;urp;" -nofirststartwizard'
+alias openOfficeLib='/Applications/LibreOffice.app/Contents/MacOS/soffice --headless --accept="socket,host=127.0.0.1,port=8100;urp;" --nofirststartwizard'
 
 # quick look file
 alias ql='qlmanage -p'
