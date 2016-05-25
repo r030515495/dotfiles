@@ -11,5 +11,5 @@ npm install -g generator-angular
 npm install -g gulp
 npm install -g webpack
 npm install -g webpack-dev-server
-
+npm install -g vue-cli
 
