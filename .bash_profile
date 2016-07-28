@@ -1,6 +1,7 @@
 # base
 export PATH=$(brew --prefix maven):$PATH
 export PATH=/usr/local/sbin:$PATH
+export PATH=/Users/rex/Tool/sdk/platform-tools:$PATH
 export WILDFLY_HOME=/Users/rex/Code/JavaPj/jboss/wildfly-8.0.0.Final/
 export ANDROID_HOME="/Users/rex/Tool/sdk/"
 export PYTHONPATH="/usr/local/lib/python2.7/site-packages"
