@@ -21,6 +21,7 @@ brew install pandoc
 brew install mongodb24
 brew install nvm
 brew install cloc
+brew install typesafe-activator
 # 繁簡語意轉換
 brew install opencc
 
