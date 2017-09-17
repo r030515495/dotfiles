@@ -42,7 +42,7 @@ alias h="history"
 alias j="jobs"
 
 # subl link
-alias subl='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl -w'
+alias subl='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl -a'
 
 # vagrant Shortcuts
 alias vg='vagrant reload && vagrant ssh'
@@ -103,9 +103,11 @@ alias dclean="dcleancontainers && dcleanimages"
 alias subledit='open -a "/Applications/TextEdit.app" ~/Library/Application\ Support/Sublime\ Text\ 3/Local/Session.sublime_session'
 
 alias gamongod='mongod  --dbpath=/Users/rex/mongodb_data --auth'
+alias vmongod='mongod  --dbpath=/Users/rex/mongodb_data'
 
 alias dsfind='find . -name ".DS_Store"'
 
 alias dsrm='find . -name ".DS_Store"  -exec rm -rf {} \; '
 
+alias cpu='ps aux | sort -n -k 3'
 
